@@ -54,12 +54,19 @@
             %p Lorem ipsum            
         .span12.section.book
           .ebook
-            %h4 Learn how to build a Meteor app from scratch
-            %h5 We will show you how we built Telescope step by step in our upcoming eBook. 
-            %form#mc-embedded-subscribe-form.validate.form-inline{:action => "http://sachagreif.us2.list-manage.com/subscribe/post?u=b5af47765edbd2fc173dbf27a&id=ed0fb4ac61", :method => "post", :name => "mc-embedded-subscribe-form", :novalidate => "", :target => "_blank"}
-              %label{:for => "mce-EMAIL"} Enter your email to receive Meteor tips and know when the book comes out
-              %input#mce-EMAIL.email{:name => "EMAIL", :placeholder => "email address", :required => "", :type => "email", :value => ""}
-              %button#mc-embedded-subscribe.button{:name => "subscribe", :type => "submit", } Sign Up
+            %h4 Learn how to build a Meteor app <strong>from scratch</strong>
+            .row
+              .span8
+                .blurb
+                  / %h5 Meteor is a game-changer
+                  %p
+                    We learned a ton building Telescope, and we're putting all of it in <strong>an eBook</strong>. </br> 
+                    Sign up to our pre-launch list now, and you'll also receive <strong>chapter previews</strong> and <strong>Meteor getting-started tips</strong> for free. 
+              .span4
+                %form#mc-embedded-subscribe-form.validate.form-inline{:action => "http://sachagreif.us2.list-manage.com/subscribe/post?u=b5af47765edbd2fc173dbf27a&id=ed0fb4ac61", :method => "post", :name => "mc-embedded-subscribe-form", :novalidate => "", :target => "_blank"}
+                  / %label{:for => "mce-EMAIL"} Enter your email to receive Meteor tips and know when the book comes out
+                  %input#mce-EMAIL.email{:name => "EMAIL", :placeholder => "Your email address", :required => "", :type => "email", :value => ""}
+                  %button#mc-embedded-subscribe.button{:name => "subscribe", :type => "submit", } Sign Up
         .span12.section.partners
           %h3 Partners
           .span4

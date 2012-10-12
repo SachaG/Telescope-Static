@@ -9,7 +9,7 @@
 @import "partials/mixins";
 
 $unit:60px;
-
+$dark-text:#5d4a6a;
 
 html, body, .bg{
 	width:100%;
@@ -17,25 +17,34 @@ html, body, .bg{
 	padding:0;
 	margin:0;
 }
-body{
+body, input, textarea, button{
 	font-family: 'Source Sans Pro', sans-serif;
 	background:#0b091c;
 	color:white(0.7);
 	line-height:1.6;
+	font-weight:300;	
 }
 h1, h2, h3, h4, h5, .intro{
 	text-shadow: 0px 1px 2px black(0.9);
 	text-align:center;
 	margin:0;
 }
+p{
+	margin:0 0 20px 0;
+}
+strong{
+	font-weight:600;
+	color:white(0.85);
+}
 a{
+	font-weight:600;
 	text-decoration:none;
-	@include single-transition(ease-out, text-shadow, 300ms, 0ms);
+	@include single-transition(ease-out, all, 300ms, 0ms);
 	&:link, &:active, &:visited{
 		color:white;
-		font-weight:bold;
 	}
 	&:hover{
+		color:#fcebff;
 		text-shadow:0px 0px 5px white;
 	}
 }
@@ -61,10 +70,13 @@ a{
 	@include border-radius(5px);
 	// @include background(linear-gradient(bottom, #41378b, #b281ff));
 	@include background(linear-gradient(bottom, #201a4b, #cbabff));
+	@include box-shadow(inset 0px 1px white(0.25));
+	border:none;
 	height:80px;
 	text-align:center;
 	position:relative;
 	overflow:hidden;
+	margin-bottom:10px;
 	span{
 		@include single-transition(ease-out, all, 300ms, 0ms);
 		display:block;
@@ -76,12 +88,12 @@ a{
 		width:102%;
 	}
 	.bg1{
-		background: url(../images/button-bg.png)  center center no-repeat;
+		background: url(../images/button-bg.png)  center center repeat;
 		z-index:10;
 		opacity:0.6;
 	}
 	.bg2{
-		background: url(../images/button-bg-hover.png)  center center no-repeat;
+		background: url(../images/button-bg-hover.png)  center center repeat;
 		background-size:390px 80px;
 		z-index:20;
 		opacity:0;
@@ -93,7 +105,7 @@ a{
 		z-index:30;
 		font-size:24px;
 		text-shadow:0px 2px 5px black(0.35);
-		line-height:80px;
+		line-height:78px;
 		height:100%;
 	}
 	.action{
@@ -143,7 +155,75 @@ a{
 	display:none;
 }
 .book{
-	display:none;
+	h4{
+		font-weight:100;
+		font-size:38px;
+		margin-bottom:10px;
+		strong{
+			font-weight:bold;
+			color:white;
+		}
+	}
+	.blurb{
+		color:white(0.8);
+		h5{
+			font-weight:normal;
+			font-size:24px;
+		}
+		p{
+			font-size:18px;
+			text-align:left;
+		}
+	}
+	form{
+		margin-top:10px;
+		@include cf;
+		.email{
+			@include border-radius(3px);
+			@include box-shadow(inset 0px 1px 3px black(0.15), 0px 2px 0px white(0.3), 0px 1px 0px black);
+			@include single-transition(ease-out, all, 300ms, 0ms);
+			width:100%;
+			display:block;
+			height:30px;
+			line-height:30px;
+			padding:7px 0px;
+			background:white;
+			border:none;
+			color:$dark-text;
+			margin-bottom:10px;
+			text-align:center;
+			font-weight:600;
+			// &::-webkit-input-placeholder, &:-moz-placeholder{
+			// 	color: black(0.6);
+			// }
+			&:focus{
+				outline:none;
+				@include box-shadow(inset 0px 1px 3px black(0.15), 0px 2px 0px white(0.3), 0px 1px 0px black, inset 0px 0px 7px 1px #bb77e9);
+			}
+		}
+		.button{
+			@include background(linear-gradient(bottom, #848484, #e4e4e4));
+			@include box-shadow(inset 0px 1px white(0.8));
+			width:100%;
+			display:block;
+			color:#4e4e52;
+			text-shadow:0px 1px 0px white(0.6);
+			font-weight:bold;
+			height:40px;
+			line-height:40px;
+			padding:0 10px;
+			text-align:center;
+			&:hover{
+				@include box-shadow(inset 0px 1px white);
+				@include background(linear-gradient(bottom, #b1b0b0, #fefefe));
+			}
+			&:active{
+				@include background(linear-gradient(bottom, #848484, #e4e4e4));
+				position:relative;
+				top:1px;
+			}
+		}
+	}
 }
 .partners{
 	display:none;
