@@ -1,1 +1,1 @@
-# HNKansai.org static site #
+# Telescope static site #
