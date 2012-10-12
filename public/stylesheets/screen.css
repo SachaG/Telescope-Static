@@ -1240,19 +1240,7 @@ a {
 .container {
   padding: 60px 10px; }
 
-/* line 66, ../sass/screen.scss */
-.tagline {
-  margin-bottom: 20px;
-  color: rgba(255, 255, 255, 0.8);
-  font-weight: 100;
-  font-size: 30px; }
-
-/* line 72, ../sass/screen.scss */
-.intro {
-  font-size: 18px;
-  margin-bottom: 20px; }
-
-/* line 76, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 .button {
   display: block;
   -webkit-border-radius: 5px;
@@ -1269,7 +1257,7 @@ a {
   text-align: center;
   position: relative;
   overflow: hidden; }
-  /* line 85, ../sass/screen.scss */
+  /* line 68, ../sass/screen.scss */
   .button span {
     -webkit-transition: ease-out all 300ms;
     -webkit-transition-delay: 0ms;
@@ -1278,47 +1266,82 @@ a {
     transition: ease-out all 300ms 0ms;
     display: block;
     width: 100%; }
-  /* line 90, ../sass/screen.scss */
+  /* line 73, ../sass/screen.scss */
   .button .bg1, .button .bg2 {
     position: absolute;
     height: 100%;
     width: 102%; }
-  /* line 95, ../sass/screen.scss */
+  /* line 78, ../sass/screen.scss */
   .button .bg1 {
     background: url(../images/button-bg.png) center center no-repeat;
     z-index: 10;
     opacity: 0.6; }
-  /* line 100, ../sass/screen.scss */
+  /* line 83, ../sass/screen.scss */
   .button .bg2 {
     background: url(../images/button-bg-hover.png) center center no-repeat;
     background-size: 390px 80px;
     z-index: 20;
     opacity: 0; }
-  /* line 106, ../sass/screen.scss */
+  /* line 89, ../sass/screen.scss */
   .button .button-content {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     border-radius: 5px;
-    -webkit-box-shadow: inset 0px 1px rgba(255, 255, 255, 0.3);
-    -moz-box-shadow: inset 0px 1px rgba(255, 255, 255, 0.3);
-    box-shadow: inset 0px 1px rgba(255, 255, 255, 0.3);
+    -webkit-box-shadow: inset 0px 1px rgba(255, 255, 255, 0.25);
+    -moz-box-shadow: inset 0px 1px rgba(255, 255, 255, 0.25);
+    box-shadow: inset 0px 1px rgba(255, 255, 255, 0.25);
     position: absolute;
     z-index: 30;
     font-size: 24px;
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.35);
     line-height: 80px;
     height: 100%; }
-  /* line 120, ../sass/screen.scss */
+  /* line 103, ../sass/screen.scss */
   .button:hover .button-content {
-    -webkit-box-shadow: inset 0px 1px rgba(255, 255, 255, 0.15);
-    -moz-box-shadow: inset 0px 1px rgba(255, 255, 255, 0.15);
-    box-shadow: inset 0px 1px rgba(255, 255, 255, 0.15); }
-  /* line 123, ../sass/screen.scss */
+    -webkit-box-shadow: inset 0px 1px rgba(255, 255, 255, 0.1);
+    -moz-box-shadow: inset 0px 1px rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0px 1px rgba(255, 255, 255, 0.1); }
+  /* line 106, ../sass/screen.scss */
   .button:hover .bg1 {
     opacity: 0; }
-  /* line 126, ../sass/screen.scss */
+  /* line 109, ../sass/screen.scss */
   .button:hover .bg2 {
     background-size: 440px 90px;
     opacity: 1; }
+
+/* line 115, ../sass/screen.scss */
+.section {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  margin-bottom: 20px; }
+
+/* line 128, ../sass/screen.scss */
+.hero .tagline {
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 100;
+  font-size: 30px; }
+/* line 134, ../sass/screen.scss */
+.hero .intro {
+  font-size: 18px;
+  margin-bottom: 20px; }
+/* line 138, ../sass/screen.scss */
+.hero .actions {
+  margin-bottom: 20px; }
+
+/* line 142, ../sass/screen.scss */
+.team {
+  display: none; }
+
+/* line 145, ../sass/screen.scss */
+.book {
+  display: none; }
+
+/* line 148, ../sass/screen.scss */
+.partners {
+  display: none; }
+
+/* line 151, ../sass/screen.scss */
+.footer {
+  display: none; }

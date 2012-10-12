@@ -55,24 +55,7 @@ a{
 .container{
 	padding:60px 10px;
 }
-.logo{
-	// background:url(../images/logo.png);
-	// background-size:600px 140px;
-	// width:600px;
-	// height:140px;
-	// margin:0 auto;
-	// @include hide-text2;
-}
-.tagline{
-	margin-bottom:20px;
-	color:white(0.8);
-	font-weight:100;
-	font-size:30px;
-}
-.intro{
-	font-size:18px;
-	margin-bottom:20px;
-}
+
 .button{
 	display:block;
 	@include border-radius(5px);
@@ -105,7 +88,7 @@ a{
 	}
 	.button-content{
 		@include border-radius(5px);
-		@include box-shadow(inset 0px 1px white(0.3));
+		@include box-shadow(inset 0px 1px white(0.25));
 		position:absolute;
 		z-index:30;
 		font-size:24px;
@@ -118,7 +101,7 @@ a{
 	}
 	&:hover{
 		.button-content{
-			@include box-shadow(inset 0px 1px white(0.15));
+			@include box-shadow(inset 0px 1px white(0.1));
 		}
 		.bg1{
 			opacity:0;
@@ -128,4 +111,43 @@ a{
 			opacity:1;
 		}
 	}
+}
+.section{
+	border-bottom:1px solid white(0.15);
+	margin-bottom:20px;
+}
+.hero{
+	.logo{
+		// background:url(../images/logo.png);
+		// background-size:600px 140px;
+		// width:600px;
+		// height:140px;
+		// margin:0 auto;
+		// @include hide-text2;
+	}
+	.tagline{
+		margin-bottom:20px;
+		color:white(0.8);
+		font-weight:100;
+		font-size:30px;
+	}
+	.intro{
+		font-size:18px;
+		margin-bottom:20px;
+	}	
+	.actions{
+		margin-bottom:20px;
+	}
+}
+.team{
+	display:none;
+}
+.book{
+	display:none;
+}
+.partners{
+	display:none;
+}
+.footer{
+	display:none;
 }
