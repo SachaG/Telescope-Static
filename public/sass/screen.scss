@@ -31,6 +31,9 @@ h1, h2, h3, h4, h5, .intro{
 }
 p{
 	margin:0 0 20px 0;
+	&.small{
+		font-size:14px;
+	}
 }
 strong{
 	font-weight:600;
@@ -126,7 +129,7 @@ a{
 }
 .section{
 	border-bottom:1px solid white(0.15);
-	margin-bottom:20px;
+	margin-bottom:30px;
 }
 .hero{
 	.logo{
@@ -166,6 +169,7 @@ a{
 	}
 	.blurb{
 		color:white(0.8);
+		margin-bottom:30px;
 		h5{
 			font-weight:normal;
 			font-size:24px;
@@ -229,5 +233,7 @@ a{
 	display:none;
 }
 .footer{
-	display:none;
+	text-align:center;
+	border:none;
+	color:white(0.5);
 }
