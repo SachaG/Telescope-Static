@@ -1,0 +1,23 @@
+.hero{
+	.logo{
+		// background:url(../images/logo.png);
+		// background-size:600px 140px;
+		// width:600px;
+		// height:140px;
+		// margin:0 auto;
+		// @include hide-text2;
+	}
+	.tagline{
+		margin-bottom:20px;
+		color:white(0.8);
+		font-weight:100;
+		font-size:30px;
+	}
+	.intro{
+		font-size:18px;
+		margin-bottom:20px;
+	}	
+	.actions{
+		margin-bottom:20px;
+	}
+}

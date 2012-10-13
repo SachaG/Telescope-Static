@@ -1,0 +1,70 @@
+
+.book{
+	h3{
+		color:white(0.7);
+		strong{
+			color:white(0.9);
+		}
+	}
+	.blurb{
+		color:white(0.8);
+		margin-bottom:30px;
+		h5{
+			font-weight:normal;
+			font-size:24px;
+		}
+		p{
+			font-size:18px;
+			text-align:left;
+		}
+	}
+	form{
+		margin-top:10px;
+		@include cf;
+		.email{
+			@include border-radius(3px);
+			@include box-shadow(inset 0px 1px 3px black(0.15), 0px 2px 0px white(0.3), 0px 1px 0px black);
+			@include single-transition(ease-out, all, 300ms, 0ms);
+			width:100%;
+			display:block;
+			height:30px;
+			line-height:30px;
+			padding:7px 0px;
+			background:white;
+			border:none;
+			color:$dark-text;
+			margin-bottom:10px;
+			text-align:center;
+			font-weight:600;
+			// &::-webkit-input-placeholder, &:-moz-placeholder{
+			// 	color: black(0.6);
+			// }
+			&:focus{
+				outline:none;
+				@include box-shadow(inset 0px 1px 3px black(0.15), 0px 2px 0px white(0.3), 0px 1px 0px black, inset 0px 0px 7px 1px #bb77e9);
+			}
+		}
+		.button{
+			@include background(linear-gradient(bottom, #848484, #e4e4e4));
+			@include box-shadow(inset 0px 1px white(0.8));
+			width:100%;
+			display:block;
+			color:#4e4e52;
+			text-shadow:0px 1px 0px white(0.6);
+			font-weight:bold;
+			height:40px;
+			line-height:40px;
+			padding:0 10px;
+			text-align:center;
+			&:hover{
+				@include box-shadow(inset 0px 1px white);
+				@include background(linear-gradient(bottom, #b1b0b0, #fefefe));
+			}
+			&:active{
+				@include background(linear-gradient(bottom, #848484, #e4e4e4));
+				position:relative;
+				top:1px;
+			}
+		}
+	}
+}
