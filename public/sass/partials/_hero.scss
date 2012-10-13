@@ -10,7 +10,7 @@
 	.tagline{
 		margin-bottom:20px;
 		color:white(0.8);
-		font-weight:100;
+		@include light;
 		font-size:30px;
 	}
 	.intro{

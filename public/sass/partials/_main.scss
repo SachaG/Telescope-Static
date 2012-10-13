@@ -4,6 +4,15 @@ $unit2:$unit/2;
 $dark-text:#5d4a6a;
 $pink:rgba(217, 153, 255, 0.6);
 
+@mixin light{
+	font-weight:100;
+}
+@mixin regular{
+	font-weight:300;
+}
+@mixin bold{
+	font-weight:600;
+}
 html, body{
 	width:100%;
 	height:100%;
@@ -15,7 +24,7 @@ body, input, textarea, button{
 	background:#0b091c;
 	color:white(0.7);
 	line-height:1.7;
-	font-weight:300;	
+	@include regular;	
 }
 h1, h2, h3, h4, h5, .intro{
 	text-shadow: 0px 1px 2px black(0.9);
@@ -24,12 +33,12 @@ h1, h2, h3, h4, h5, .intro{
 }
 h3{
 	text-shadow: 0px 2px 5px black(0.9), 0px 0px 15px white(0.5);
-	font-weight:100;
+	@include light;
 	font-size:38px;
 	margin-bottom:10px;
 	color:$pink;
 	strong{
-		font-weight:bold;
+		@include bold;
 		// color:white;
 	}
 }
@@ -40,11 +49,11 @@ p{
 	}
 }
 strong{
-	font-weight:600;
+	@include bold;
 	// color:white(0.85);
 }
 a{
-	font-weight:600;
+	@include bold;
 	text-decoration:none;
 	@include single-transition(ease-out, all, 300ms, 0ms);
 	&:link, &:active, &:visited{
@@ -123,7 +132,10 @@ a{
 		height:100%;
 	}
 	.action{
-
+		em{
+			@include regular;
+			font-style:normal;
+		}
 	}
 	&:hover{
 		.button-content{

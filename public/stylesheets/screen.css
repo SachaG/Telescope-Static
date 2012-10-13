@@ -1186,14 +1186,14 @@ textarea {
     clear: both; }
 
 /*================ MIXINS =================*/
-/* line 7, ../sass/partials/_main.scss */
+/* line 16, ../sass/partials/_main.scss */
 html, body {
   width: 100%;
   height: 100%;
   padding: 0;
   margin: 0; }
 
-/* line 13, ../sass/partials/_main.scss */
+/* line 22, ../sass/partials/_main.scss */
 body, input, textarea, button {
   font-family: 'Source Sans Pro', sans-serif;
   background: #0b091c;
@@ -1201,35 +1201,35 @@ body, input, textarea, button {
   line-height: 1.7;
   font-weight: 300; }
 
-/* line 20, ../sass/partials/_main.scss */
+/* line 29, ../sass/partials/_main.scss */
 h1, h2, h3, h4, h5, .intro {
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.9);
   text-align: center;
   margin: 0; }
 
-/* line 25, ../sass/partials/_main.scss */
+/* line 34, ../sass/partials/_main.scss */
 h3 {
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.9), 0px 0px 15px rgba(255, 255, 255, 0.5);
   font-weight: 100;
   font-size: 38px;
   margin-bottom: 10px;
   color: rgba(217, 153, 255, 0.6); }
-  /* line 31, ../sass/partials/_main.scss */
+  /* line 40, ../sass/partials/_main.scss */
   h3 strong {
-    font-weight: bold; }
+    font-weight: 600; }
 
-/* line 36, ../sass/partials/_main.scss */
+/* line 45, ../sass/partials/_main.scss */
 p {
   margin: 0 0 20px 0; }
-  /* line 38, ../sass/partials/_main.scss */
+  /* line 47, ../sass/partials/_main.scss */
   p.small {
     font-size: 14px; }
 
-/* line 42, ../sass/partials/_main.scss */
+/* line 51, ../sass/partials/_main.scss */
 strong {
   font-weight: 600; }
 
-/* line 46, ../sass/partials/_main.scss */
+/* line 55, ../sass/partials/_main.scss */
 a {
   font-weight: 600;
   text-decoration: none;
@@ -1238,15 +1238,15 @@ a {
   -moz-transition: ease-out all 300ms 0ms;
   -o-transition: ease-out all 300ms 0ms;
   transition: ease-out all 300ms 0ms; }
-  /* line 50, ../sass/partials/_main.scss */
+  /* line 59, ../sass/partials/_main.scss */
   a:link, a:active, a:visited {
     color: white; }
-  /* line 53, ../sass/partials/_main.scss */
+  /* line 62, ../sass/partials/_main.scss */
   a:hover {
     color: #fcebff;
     text-shadow: 0px 0px 5px white; }
 
-/* line 62, ../sass/partials/_main.scss */
+/* line 71, ../sass/partials/_main.scss */
 .bg {
   width: 100%;
   height: 100%;
@@ -1262,11 +1262,11 @@ a {
   left: 0px;
   z-index: -10; }
 
-/* line 78, ../sass/partials/_main.scss */
+/* line 87, ../sass/partials/_main.scss */
 .container {
   padding: 60px 10px; }
 
-/* line 82, ../sass/partials/_main.scss */
+/* line 91, ../sass/partials/_main.scss */
 .button {
   display: block;
   -webkit-border-radius: 5px;
@@ -1288,7 +1288,7 @@ a {
   position: relative;
   overflow: hidden;
   margin-bottom: 10px; }
-  /* line 94, ../sass/partials/_main.scss */
+  /* line 103, ../sass/partials/_main.scss */
   .button span {
     -webkit-transition: ease-out all 300ms;
     -webkit-transition-delay: 0ms;
@@ -1297,23 +1297,23 @@ a {
     transition: ease-out all 300ms 0ms;
     display: block;
     width: 100%; }
-  /* line 99, ../sass/partials/_main.scss */
+  /* line 108, ../sass/partials/_main.scss */
   .button .bg1, .button .bg2 {
     position: absolute;
     height: 100%;
     width: 102%; }
-  /* line 104, ../sass/partials/_main.scss */
+  /* line 113, ../sass/partials/_main.scss */
   .button .bg1 {
     background: url(../images/button-bg.png) center center repeat;
     z-index: 10;
     opacity: 0.6; }
-  /* line 109, ../sass/partials/_main.scss */
+  /* line 118, ../sass/partials/_main.scss */
   .button .bg2 {
     background: url(../images/button-bg-hover.png) center center repeat;
     background-size: 390px 80px;
     z-index: 20;
     opacity: 0; }
-  /* line 115, ../sass/partials/_main.scss */
+  /* line 124, ../sass/partials/_main.scss */
   .button .button-content {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -1329,24 +1329,28 @@ a {
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.35);
     line-height: 78px;
     height: 100%; }
-  /* line 129, ../sass/partials/_main.scss */
+  /* line 135, ../sass/partials/_main.scss */
+  .button .action em {
+    font-weight: 300;
+    font-style: normal; }
+  /* line 141, ../sass/partials/_main.scss */
   .button:hover .button-content {
     -webkit-box-shadow: inset 0px 1px rgba(255, 255, 255, 0.1);
     -moz-box-shadow: inset 0px 1px rgba(255, 255, 255, 0.1);
     box-shadow: inset 0px 1px rgba(255, 255, 255, 0.1); }
-  /* line 132, ../sass/partials/_main.scss */
+  /* line 144, ../sass/partials/_main.scss */
   .button:hover .bg1 {
     opacity: 0; }
-  /* line 135, ../sass/partials/_main.scss */
+  /* line 147, ../sass/partials/_main.scss */
   .button:hover .bg2 {
     background-size: 440px 90px;
     opacity: 1; }
-  /* line 140, ../sass/partials/_main.scss */
+  /* line 152, ../sass/partials/_main.scss */
   .button:active {
     position: relative;
     top: 1px; }
 
-/* line 145, ../sass/partials/_main.scss */
+/* line 157, ../sass/partials/_main.scss */
 .section {
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   margin-bottom: 40px;
@@ -1383,7 +1387,7 @@ a {
   margin-bottom: 30px; }
   /* line 12, ../sass/partials/_book.scss */
   .book .blurb h5 {
-    font-weight: normal;
+    font-weight: 300;
     font-size: 24px; }
   /* line 16, ../sass/partials/_book.scss */
   .book .blurb p {
@@ -1448,7 +1452,7 @@ a {
     display: block;
     color: #4e4e52;
     text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);
-    font-weight: bold;
+    font-weight: 600;
     height: 40px;
     line-height: 40px;
     padding: 0 10px;
