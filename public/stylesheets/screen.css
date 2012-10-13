@@ -1187,7 +1187,7 @@ textarea {
 
 /*================ MIXINS =================*/
 /* line 14, ../sass/screen.scss */
-html, body, .bg {
+html, body {
   width: 100%;
   height: 100%;
   padding: 0;
@@ -1236,25 +1236,27 @@ a {
     color: #fcebff;
     text-shadow: 0px 0px 5px white; }
 
-/* line 54, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 .bg {
+  width: 100%;
+  height: 100%;
   background: url(../images/stars-bg.jpg) no-repeat top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/stars-bg.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/stars-bg.jpg', sizingMethod='scale')";
   position: absolute;
   top: 0px;
   left: 0px;
   z-index: -10; }
 
-/* line 67, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 .container {
   padding: 60px 10px; }
 
-/* line 71, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 .button {
   display: block;
   -webkit-border-radius: 5px;
@@ -1276,7 +1278,7 @@ a {
   position: relative;
   overflow: hidden;
   margin-bottom: 10px; }
-  /* line 83, ../sass/screen.scss */
+  /* line 90, ../sass/screen.scss */
   .button span {
     -webkit-transition: ease-out all 300ms;
     -webkit-transition-delay: 0ms;
@@ -1285,23 +1287,23 @@ a {
     transition: ease-out all 300ms 0ms;
     display: block;
     width: 100%; }
-  /* line 88, ../sass/screen.scss */
+  /* line 95, ../sass/screen.scss */
   .button .bg1, .button .bg2 {
     position: absolute;
     height: 100%;
     width: 102%; }
-  /* line 93, ../sass/screen.scss */
+  /* line 100, ../sass/screen.scss */
   .button .bg1 {
     background: url(../images/button-bg.png) center center repeat;
     z-index: 10;
     opacity: 0.6; }
-  /* line 98, ../sass/screen.scss */
+  /* line 105, ../sass/screen.scss */
   .button .bg2 {
     background: url(../images/button-bg-hover.png) center center repeat;
     background-size: 390px 80px;
     z-index: 20;
     opacity: 0; }
-  /* line 104, ../sass/screen.scss */
+  /* line 111, ../sass/screen.scss */
   .button .button-content {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -1317,64 +1319,64 @@ a {
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.35);
     line-height: 78px;
     height: 100%; }
-  /* line 118, ../sass/screen.scss */
+  /* line 125, ../sass/screen.scss */
   .button:hover .button-content {
     -webkit-box-shadow: inset 0px 1px rgba(255, 255, 255, 0.1);
     -moz-box-shadow: inset 0px 1px rgba(255, 255, 255, 0.1);
     box-shadow: inset 0px 1px rgba(255, 255, 255, 0.1); }
-  /* line 121, ../sass/screen.scss */
+  /* line 128, ../sass/screen.scss */
   .button:hover .bg1 {
     opacity: 0; }
-  /* line 124, ../sass/screen.scss */
+  /* line 131, ../sass/screen.scss */
   .button:hover .bg2 {
     background-size: 440px 90px;
     opacity: 1; }
 
-/* line 130, ../sass/screen.scss */
+/* line 137, ../sass/screen.scss */
 .section {
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   margin-bottom: 30px; }
 
-/* line 143, ../sass/screen.scss */
+/* line 150, ../sass/screen.scss */
 .hero .tagline {
   margin-bottom: 20px;
   color: rgba(255, 255, 255, 0.8);
   font-weight: 100;
   font-size: 30px; }
-/* line 149, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 .hero .intro {
   font-size: 18px;
   margin-bottom: 20px; }
-/* line 153, ../sass/screen.scss */
+/* line 160, ../sass/screen.scss */
 .hero .actions {
   margin-bottom: 20px; }
 
-/* line 157, ../sass/screen.scss */
+/* line 164, ../sass/screen.scss */
 .team {
   display: none; }
 
-/* line 161, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
 .book h4 {
   font-weight: 100;
   font-size: 38px;
   margin-bottom: 10px; }
-  /* line 165, ../sass/screen.scss */
+  /* line 172, ../sass/screen.scss */
   .book h4 strong {
     font-weight: bold;
     color: white; }
-/* line 170, ../sass/screen.scss */
+/* line 177, ../sass/screen.scss */
 .book .blurb {
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: 30px; }
-  /* line 173, ../sass/screen.scss */
+  /* line 180, ../sass/screen.scss */
   .book .blurb h5 {
     font-weight: normal;
     font-size: 24px; }
-  /* line 177, ../sass/screen.scss */
+  /* line 184, ../sass/screen.scss */
   .book .blurb p {
     font-size: 18px;
     text-align: left; }
-/* line 182, ../sass/screen.scss */
+/* line 189, ../sass/screen.scss */
 .book form {
   margin-top: 10px;
   /* For modern browsers */
@@ -1387,7 +1389,7 @@ a {
   /* line 7, ../sass/partials/_mixins.scss */
   .book form:after {
     clear: both; }
-  /* line 185, ../sass/screen.scss */
+  /* line 192, ../sass/screen.scss */
   .book form .email {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -1413,13 +1415,13 @@ a {
     margin-bottom: 10px;
     text-align: center;
     font-weight: 600; }
-    /* line 203, ../sass/screen.scss */
+    /* line 210, ../sass/screen.scss */
     .book form .email:focus {
       outline: none;
       -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.15), 0px 2px 0px rgba(255, 255, 255, 0.3), 0px 1px 0px black, inset 0px 0px 7px 1px #bb77e9;
       -moz-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.15), 0px 2px 0px rgba(255, 255, 255, 0.3), 0px 1px 0px black, inset 0px 0px 7px 1px #bb77e9;
       box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.15), 0px 2px 0px rgba(255, 255, 255, 0.3), 0px 1px 0px black, inset 0px 0px 7px 1px #bb77e9; }
-  /* line 208, ../sass/screen.scss */
+  /* line 215, ../sass/screen.scss */
   .book form .button {
     background: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #848484), color-stop(100%, #e4e4e4));
     background: -webkit-linear-gradient(bottom, #848484, #e4e4e4);
@@ -1438,7 +1440,7 @@ a {
     line-height: 40px;
     padding: 0 10px;
     text-align: center; }
-    /* line 220, ../sass/screen.scss */
+    /* line 227, ../sass/screen.scss */
     .book form .button:hover {
       -webkit-box-shadow: inset 0px 1px white;
       -moz-box-shadow: inset 0px 1px white;
@@ -1448,7 +1450,7 @@ a {
       background: -moz-linear-gradient(bottom, #b1b0b0, #fefefe);
       background: -o-linear-gradient(bottom, #b1b0b0, #fefefe);
       background: linear-gradient(bottom, #b1b0b0, #fefefe); }
-    /* line 224, ../sass/screen.scss */
+    /* line 231, ../sass/screen.scss */
     .book form .button:active {
       background: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #848484), color-stop(100%, #e4e4e4));
       background: -webkit-linear-gradient(bottom, #848484, #e4e4e4);
@@ -1458,11 +1460,11 @@ a {
       position: relative;
       top: 1px; }
 
-/* line 232, ../sass/screen.scss */
+/* line 239, ../sass/screen.scss */
 .partners {
   display: none; }
 
-/* line 235, ../sass/screen.scss */
+/* line 242, ../sass/screen.scss */
 .footer {
   text-align: center;
   border: none;
