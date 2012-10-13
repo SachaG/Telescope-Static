@@ -21,13 +21,22 @@ body, input, textarea, button{
 	font-family: 'Source Sans Pro', sans-serif;
 	background:#0b091c;
 	color:white(0.7);
-	line-height:1.6;
+	line-height:1.7;
 	font-weight:300;	
 }
 h1, h2, h3, h4, h5, .intro{
 	text-shadow: 0px 1px 2px black(0.9);
 	text-align:center;
 	margin:0;
+}
+h3{
+	font-weight:100;
+	font-size:38px;
+	margin-bottom:10px;
+	strong{
+		font-weight:bold;
+		color:white;
+	}
 }
 p{
 	margin:0 0 20px 0;
@@ -133,6 +142,10 @@ a{
 			opacity:1;
 		}
 	}
+	&:active{
+		position:relative;
+		top:1px;
+	}
 }
 .section{
 	border-bottom:1px solid white(0.15);
@@ -162,18 +175,28 @@ a{
 	}
 }
 .team{
-	display:none;
-}
-.book{
+	text-align:center;
 	h4{
-		font-weight:100;
-		font-size:38px;
-		margin-bottom:10px;
-		strong{
-			font-weight:bold;
-			color:white;
+		font-size:36px;
+	}
+	.portrait{
+		@include border-radius(100px);
+		@include single-transition(ease-out, all, 300ms, 0ms);
+		position:relative;
+		display:block;
+		width:200px;
+		margin:0 auto;
+		img{
+			display:block;
+		}
+		&:hover{
+			background:white(0.125);
+			@include box-shadow(0px 0px 50px white(0.3));
+			top:-3px;
 		}
 	}
+}
+.book{
 	.blurb{
 		color:white(0.8);
 		margin-bottom:30px;
@@ -237,7 +260,21 @@ a{
 	}
 }
 .partners{
-	display:none;
+	h3{
+		margin-bottom:20px;
+	}
+	.partner{
+		margin-bottom:30px;		
+		a{
+			width:130px;
+			margin:0 auto;
+			display:block;
+			img{
+				display:block;
+				margin:0;
+			}
+		}
+	}
 }
 .footer{
 	text-align:center;
