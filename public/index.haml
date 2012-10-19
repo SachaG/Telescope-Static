@@ -44,17 +44,15 @@
         .span12.section.book
           .ebook
             %h3 Learn how to build a Meteor app <strong>from scratch</strong>
-            .row
-              .span8
-                .blurb
-                  %p
-                    We learned a ton building Telescope, and we're putting all of it in <strong>an eBook</strong>. </br> 
-                    Sign up to our pre-launch list now, and you'll also receive <strong>chapter previews</strong> and <strong>Meteor getting-started tips</strong> for free. 
-              .span4
-                %form#mc-embedded-subscribe-form.validate.form-inline{:action => "http://sachagreif.us2.list-manage.com/subscribe/post?u=b5af47765edbd2fc173dbf27a&id=ed0fb4ac61", :method => "post", :name => "mc-embedded-subscribe-form", :novalidate => "", :target => "_blank"}
-                  / %label{:for => "mce-EMAIL"} Enter your email to receive Meteor tips and know when the book comes out
-                  %input#mce-EMAIL.email{:name => "EMAIL", :placeholder => "Your email address", :required => "", :type => "email", :value => ""}
-                  %button#mc-embedded-subscribe.button{:name => "subscribe", :type => "submit", } Sign Up
+            .ebook-content
+              .blurb
+                %p
+                  We learned a ton building Telescope, and we're putting all of it in <strong>an eBook</strong>. </br> 
+                  Sign up to our pre-launch list now, and you'll also receive <strong>chapter previews</strong> and <strong>Meteor getting-started tips</strong> for free. 
+              %form#mc-embedded-subscribe-form.validate.form-inline{:action => "http://sachagreif.us2.list-manage.com/subscribe/post?u=b5af47765edbd2fc173dbf27a&id=ed0fb4ac61", :method => "post", :name => "mc-embedded-subscribe-form", :novalidate => "", :target => "_blank"}
+                / %label{:for => "mce-EMAIL"} Enter your email to receive Meteor tips and know when the book comes out
+                %input#mce-EMAIL.email{:name => "EMAIL", :placeholder => "Your email address", :required => "", :type => "email", :value => ""}
+                %button#mc-embedded-subscribe.button{:name => "subscribe", :type => "submit", } Sign Up
         .span12.section.features
           %h3 A Galaxy of Features
           .row
@@ -73,17 +71,19 @@
           %h3 The Telescope Team
           .row
             .span6
-              %a.portrait{:href=>"http://sachagreif.com"}
+              %a.portrait{:href=>"http://sachagreif.com", :target=>"_blank"}
                 %img{:src=>"images/photo-sacha-big.png"}
               %h4
                 %a{:href=>"http://sachagreif.com", :target=>"_blank"} Sacha Greif
-              %p I’m a designer from Paris, France. I specialize in user interfaces for web and mobile apps, and I’ve worked for clients such as Le Monde, Hipmunk, and MileWise.
+              %h5 Osaka, Japan  
+              %p I've worked with startups such as <a href="http://hipmunk.com/" target="_blank">Hipmunk</a> and <a href="http://rubymotion.com/" target="_blank">RubyMotion</a> as a product designer. But I now focus on helping startups find great designers with <a href="http://folyo.me/" target="_blank">Folyo</a>, and <a href="http://sachagreif.com/ebook" target="_blank">writing books</a>. 
             .span6
-              %a.portrait{:href=>"#"}
+              %a.portrait{:href=>"http://tom.thesnail.org", :target=>"_blank"}
                 %img{:src=>"images/photo-tom-big.png"}
               %h4 
                 %a{:href=>"http://tom.thesnail.org", :target=>"_blank"} Tom Coleman
-              %p I’m a designer from Paris, France. I specialize in user interfaces for web and mobile apps, and I’ve worked for clients such as Le Monde, Hipmunk, and MileWise. 
+              %h5 Melbourne, Australia  
+              %p I'm one part of <a href="http://percolatestudio.com/" target="_blank">Percolate Studio</a>, a web development shop with a focus on quality and user experience. I'm also the co-creator of <a href="https://github.com/oortcloud/meteorite" target="_blank">Meteorite</a> and the <a href="https://atmosphere.meteor.com/" target="_blank">Atmosphere</a> package repository.
         .span12.section.partners
           %h3 Partners
           .row
