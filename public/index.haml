@@ -38,24 +38,40 @@
                 %span.bg1
                 %span.bg2
                 %span.button-content
-                  %span.action Download <em>on</em> GitHub
+                  %span.action Fork on GitHub
                   / %span.info Fork, download, and view docs
           %p.intro Telescope is an open-source social news app (think <a href="http://news.ycombinator.com" target="_blank">Hacker News</a> or <a href="http://reddit.com" target="_blank">Reddit</a>) built with <a href="http://meteor.com" target="_blank">Meteor</a>, a real-time Javascript framework.           
-         
+        .span12.section.no-border.examples
+          %h3 What Are People Using It For?
+          .row
+            .span4
+              %a.logo{:href => "http://news.hnkansai.org"}
+                %img{:src => "images/hnkansai.png"}
+              / %h4 Community Site             
+              %p The <a href="http://news.hnkansai.org">Hacker News Kansai</a> community uses Telescope to keep in touch and share ideas in between meetups. 
+            .span4  
+              %a.logo{:href => "http://sidebar.io"}
+                %img{:src => "images/sidebar.png"}
+              / %h4 Collaborative Linkblog
+              %p <a href="http://sidebar.io">Sidebar</a> uses Telescope's digest view to display the 5 best design links of the day, as curated by a team of editors. 
+            .span4
+              %a.logo{:href => "http://leakmap.com"}
+                %img{:src => "images/leakmap.png"}
+              / %h4 Feature Roadmap
+              %p <a href="http://leakmap.com">Leakmap</a> is a dynamic roadmap for Meteor features that lets users vote on the feature they'd most like to see built next. 
         .span12.section.book
           .ebook
-            %h3 Learn how to build a Meteor app <strong>from scratch</strong>
+            %h3 By the way, we're writing a book!
             .ebook-content
               .blurb
                 %p
-                  We learned a ton building Telescope, and we're putting all of it in <strong>an eBook</strong>. </br> 
-                  Sign up to our pre-launch list now, and you'll also receive <strong>chapter previews</strong> and <strong>Meteor getting-started tips</strong> for free. 
+                  We're using everything we learned building Telescope to write <strong>the definitive guide on building Meteor apps</strong>. <br/>Leave us your email, and we'll also send you <strong>weekly Meteor tips</strong> to help you get started.
               %form#mc-embedded-subscribe-form.validate.form-inline{:action => "http://sachagreif.us2.list-manage.com/subscribe/post?u=b5af47765edbd2fc173dbf27a&id=ed0fb4ac61", :method => "post", :name => "mc-embedded-subscribe-form", :novalidate => "", :target => "_blank"}
                 / %label{:for => "mce-EMAIL"} Enter your email to receive Meteor tips and know when the book comes out
                 %input#mce-EMAIL.email{:name => "EMAIL", :placeholder => "Your email address", :required => "", :type => "email", :value => ""}
-                %button#mc-embedded-subscribe.button{:name => "subscribe", :type => "submit", } Sign Up
+                %button#mc-embedded-subscribe.button{:name => "subscribe", :type => "submit", } Get Meteor Tips
         .span12.section.features
-          %h3 A Galaxy of Features
+          %h3 A Few Of Telescope's Features
           .row
             .span4 Real-time updating
             .span4 Invite-only access
@@ -68,6 +84,10 @@
             .span4 <a href="http://mixpanel.com" target="_blank">Mixpanel</a> integration
             .span4 Day-by-day digest view
             .span4 Open sourced under <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT license</a>
+          .row
+            .span4 Post categories
+            .span4 Posting rate limit            
+            .span4 More coming soon…
         .span12.section.team
           %h3 The Telescope Team
           .row
@@ -77,7 +97,7 @@
               %h4
                 %a{:href=>"http://sachagreif.com", :target=>"_blank"} Sacha Greif
               %h5 Osaka, Japan  
-              %p I've worked with startups such as <a href="http://hipmunk.com/" target="_blank">Hipmunk</a> and <a href="http://rubymotion.com/" target="_blank">RubyMotion</a> as a product designer. But I now focus on helping startups find great designers with <a href="http://folyo.me/" target="_blank">Folyo</a>, and <a href="http://sachagreif.com/ebook" target="_blank">writing books</a>. 
+              %p I've worked with startups such as <a href="http://hipmunk.com/" target="_blank">Hipmunk</a> and <a href="http://rubymotion.com/" target="_blank">RubyMotion</a> as a product designer. But I now focus on helping startups find great designers with <a href="http://folyo.me/" target="_blank">Folyo</a>, as well as <a href="http://sachagreif.com/ebook" target="_blank">writing books</a>. 
             .span6
               %a.portrait{:href=>"http://tom.thesnail.org", :target=>"_blank"}
                 %img{:src=>"images/photo-tom-big.png"}

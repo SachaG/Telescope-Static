@@ -1212,7 +1212,7 @@ h3 {
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.9), 0px 0px 15px rgba(255, 255, 255, 0.5);
   font-weight: 100;
   font-size: 38px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   color: rgba(217, 153, 255, 0.6); }
   /* line 40, ../sass/partials/_main.scss */
   h3 strong {
@@ -1354,30 +1354,50 @@ a {
 .section {
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   margin-bottom: 40px;
-  padding-bottom: 20px; }
+  padding-bottom: 40px; }
+  /* line 161, ../sass/partials/_main.scss */
+  .section.no-border {
+    border-bottom: none;
+    margin-bottom: 0; }
 
-/* line 1, ../sass/partials/_hero.scss */
-.hero {
-  border-bottom: none;
-  margin-bottom: 0; }
-  /* line 12, ../sass/partials/_hero.scss */
-  .hero .tagline {
-    margin-bottom: 20px;
-    color: rgba(255, 255, 255, 0.8);
-    font-weight: 100;
-    font-size: 30px; }
-  /* line 18, ../sass/partials/_hero.scss */
-  .hero .intro {
-    font-size: 18px;
-    margin-bottom: 20px; }
-  /* line 22, ../sass/partials/_hero.scss */
-  .hero .actions {
-    margin-bottom: 20px; }
+/* line 10, ../sass/partials/_hero.scss */
+.hero .tagline {
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 100;
+  font-size: 30px; }
+/* line 16, ../sass/partials/_hero.scss */
+.hero .intro {
+  font-size: 18px;
+  margin-bottom: 20px; }
+/* line 20, ../sass/partials/_hero.scss */
+.hero .actions {
+  margin-bottom: 20px; }
 
 /* line 3, ../sass/partials/_features.scss */
 .features .row > div {
   margin-bottom: 20px;
   text-align: center; }
+
+/* line 2, ../sass/partials/_examples.scss */
+.examples h4 {
+  font-size: 18px; }
+/* line 5, ../sass/partials/_examples.scss */
+.examples p {
+  text-align: center; }
+/* line 8, ../sass/partials/_examples.scss */
+.examples .logo {
+  display: block;
+  margin-bottom: 20px;
+  opacity: 0.4; }
+  /* line 12, ../sass/partials/_examples.scss */
+  .examples .logo img {
+    display: block;
+    margin: 0 auto;
+    height: 50px; }
+  /* line 17, ../sass/partials/_examples.scss */
+  .examples .logo:hover {
+    opacity: 1; }
 
 /* line 1, ../sass/partials/_book.scss */
 .book {
@@ -1390,7 +1410,7 @@ a {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   background: rgba(255, 255, 255, 0.1);
   color: #333 !important;
-  padding: 20px 30px;
+  padding: 10px 30px;
   position: relative;
   -webkit-transition: ease-out all 300ms;
   -webkit-transition-delay: 0ms;
@@ -1424,23 +1444,23 @@ a {
       color: rgba(255, 255, 255, 0.9); }
   /* line 27, ../sass/partials/_book.scss */
   .ebook .blurb {
+    margin-left: 30px;
     color: rgba(255, 255, 255, 0.8);
     width: 400px;
-    float: left; }
-    /* line 31, ../sass/partials/_book.scss */
+    float: right; }
+    /* line 32, ../sass/partials/_book.scss */
     .ebook .blurb h5 {
       font-weight: 300;
       font-size: 24px; }
-    /* line 35, ../sass/partials/_book.scss */
+    /* line 36, ../sass/partials/_book.scss */
     .ebook .blurb p {
-      font-size: 18px;
+      font-size: 16px;
       text-align: left; }
-  /* line 40, ../sass/partials/_book.scss */
+  /* line 41, ../sass/partials/_book.scss */
   .ebook form {
     margin-top: 10px;
     width: 230px;
-    float: right;
-    margin-left: 30px;
+    float: left;
     /* For modern browsers */
     /* For IE 6/7 (trigger hasLayout) */
     *zoom: 1; }
