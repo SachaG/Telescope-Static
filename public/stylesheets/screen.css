@@ -1607,13 +1607,17 @@ a {
   margin-bottom: 20px; }
   /* line 7, ../sass/partials/_partners.scss */
   .partners .partner a {
+    opacity: 0.35;
     width: 130px;
     margin: 0 auto;
     display: block; }
-    /* line 11, ../sass/partials/_partners.scss */
+    /* line 12, ../sass/partials/_partners.scss */
     .partners .partner a img {
       display: block;
       margin: 0; }
+    /* line 16, ../sass/partials/_partners.scss */
+    .partners .partner a:hover {
+      opacity: 1; }
 
 /* line 1, ../sass/partials/_footer.scss */
 .footer {
