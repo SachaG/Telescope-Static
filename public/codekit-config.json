@@ -37,16 +37,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/javascripts\/vendor\/jquery-1.8.0.min.js" : {
+    "\/images\/mixpanel-logo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/vendor\/jquery-1.8.0.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/javascripts\/vendor\/jquery-1.8.0.min-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/images\/mixpanel-logo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/mixpanel-logo.png",
+      "initialSize" : 5877,
+      "fileType" : 8192
     },
     "\/stylesheets\/print.css" : {
       "ignoreWasSetByUser" : 0,
@@ -56,29 +56,6 @@
       "inputAbbreviatedPath" : "\/stylesheets\/print.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
-    },
-    "\/sass\/ie.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/ie.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/ie.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/images\/hnkansai_logo2.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/hnkansai_logo2.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/hnkansai_logo2.png",
-      "initialSize" : 9503,
-      "fileType" : 8192
     },
     "\/sass\/partials\/_team.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -92,6 +69,29 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/sass\/ie.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/ie.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/stylesheets\/ie.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/javascripts\/vendor\/jquery-1.8.0.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascripts\/vendor\/jquery-1.8.0.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/javascripts\/vendor\/jquery-1.8.0.min-ck.js",
+      "fileType" : 64
+    },
     "\/sass\/screen.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -104,15 +104,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/images\/mixpanel-logo.png" : {
+    "\/images\/hnkansai_logo2.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/mixpanel-logo.png",
+      "inputAbbreviatedPath" : "\/images\/hnkansai_logo2.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/mixpanel-logo.png",
-      "initialSize" : 5877,
+      "outputAbbreviatedPath" : "\/images\/hnkansai_logo2.png",
+      "initialSize" : 9503,
       "fileType" : 8192
     },
     "\/images\/button-bg.png" : {
@@ -232,17 +232,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/javascripts\/plugins.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/plugins.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/javascripts\/plugins-ck.js",
-      "fileType" : 64
-    },
     "\/images\/stars3-bg.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -253,6 +242,17 @@
       "outputAbbreviatedPath" : "\/images\/stars3-bg.png",
       "initialSize" : 85762,
       "fileType" : 8192
+    },
+    "\/javascripts\/plugins.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascripts\/plugins.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/javascripts\/plugins-ck.js",
+      "fileType" : 64
     },
     "\/sass\/partials\/_main.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -304,6 +304,15 @@
       "fileType" : 256,
       "outputStyle" : 0
     },
+    "\/stylesheets\/ie.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/stylesheets\/ie.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/images\/logo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -314,15 +323,6 @@
       "outputAbbreviatedPath" : "\/images\/logo.png",
       "initialSize" : 199849,
       "fileType" : 8192
-    },
-    "\/stylesheets\/ie.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/stylesheets\/ie.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/sass\/partials\/_features.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -369,16 +369,17 @@
       "initialSize" : 4790,
       "fileType" : 8192
     },
-    "\/images\/proxino-logo.png" : {
+    "\/sass\/partials\/_normalize.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/proxino-logo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/proxino-logo.png",
-      "initialSize" : 4669,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/sass\/partials\/_normalize.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/stylesheets\/_normalize.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/images\/meteor-logo.png" : {
       "ignoreWasSetByUser" : 0,
@@ -413,18 +414,6 @@
       "initialSize" : 30786,
       "fileType" : 8192
     },
-    "\/sass\/partials\/_footer.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/partials\/_footer.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/_footer.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -445,6 +434,17 @@
       "outputAbbreviatedPath" : "\/stylesheets\/_mixins.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/images\/proxino-logo.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/proxino-logo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/proxino-logo.png",
+      "initialSize" : 4669,
+      "fileType" : 8192
     },
     "\/images\/proxino-logo2.png" : {
       "ignoreWasSetByUser" : 0,
@@ -468,17 +468,16 @@
       "initialSize" : 13273,
       "fileType" : 4096
     },
-    "\/sass\/partials\/_hero.scss" : {
+    "\/images\/lens-bg.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/partials\/_hero.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/_hero.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/images\/lens-bg.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/lens-bg.png",
+      "initialSize" : 68350,
+      "fileType" : 8192
     },
     "\/images\/button-bg-hover.png" : {
       "ignoreWasSetByUser" : 0,
@@ -491,6 +490,18 @@
       "initialSize" : 43370,
       "fileType" : 8192
     },
+    "\/sass\/partials\/_hero.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/partials\/_hero.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/stylesheets\/_hero.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/images\/photo-sacha.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -502,37 +513,17 @@
       "initialSize" : 62057,
       "fileType" : 8192
     },
-    "\/sass\/partials\/_normalize.scss" : {
+    "\/sass\/partials\/_footer.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/partials\/_normalize.scss",
+      "inputAbbreviatedPath" : "\/sass\/partials\/_footer.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/_normalize.css",
+      "outputAbbreviatedPath" : "\/stylesheets\/_footer.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/images\/lens-bg.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/lens-bg.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/lens-bg.png",
-      "initialSize" : 68350,
-      "fileType" : 8192
-    },
-    "\/sass\/main.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/main.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/sass\/print.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -545,6 +536,15 @@
       "outputAbbreviatedPath" : "\/stylesheets\/print.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/sass\/main.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/main.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     }
   },
   "manualImportLinks" : [

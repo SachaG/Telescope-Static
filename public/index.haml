@@ -27,11 +27,17 @@
           %h2.tagline An open-source social news app built with Meteor
           .row.actions
             .span6
-              %a.button.demo{:href=>"http://demo.telesc.pe"}
+              .button.demo
                 %span.bg1
                 %span.bg2
                 %span.button-content
-                  %span.action Try Demo
+                  %span.action 
+                    %a{:href=>"http://demo.telesc.pe"} Try Demo
+                    (
+                    %a{:href=>"http://demo2.telesc.pe"} Demo2
+                    ,
+                    %a{:href=>"http://demo3.telesc.pe"} Demo3
+                    )
                   / %span.info Reset every 10 minutes
             .span6
               %a.button.github{:href=>"http://github.com/SachaG/Telescope"}
