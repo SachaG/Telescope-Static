@@ -37,37 +37,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/images\/mixpanel-logo.png" : {
+    "\/images\/hnkansai_logo2.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/mixpanel-logo.png",
+      "inputAbbreviatedPath" : "\/images\/hnkansai_logo2.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/mixpanel-logo.png",
-      "initialSize" : 5877,
+      "outputAbbreviatedPath" : "\/images\/hnkansai_logo2.png",
+      "initialSize" : 9503,
       "fileType" : 8192
-    },
-    "\/stylesheets\/print.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/stylesheets\/print.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/sass\/partials\/_team.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/partials\/_team.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/_team.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/sass\/ie.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -81,6 +60,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/images\/mixpanel-logo.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/mixpanel-logo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/mixpanel-logo.png",
+      "initialSize" : 5877,
+      "fileType" : 8192
+    },
     "\/javascripts\/vendor\/jquery-1.8.0.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -91,6 +81,15 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/javascripts\/vendor\/jquery-1.8.0.min-ck.js",
       "fileType" : 64
+    },
+    "\/stylesheets\/print.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/stylesheets\/print.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/sass\/screen.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -104,16 +103,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/images\/hnkansai_logo2.png" : {
+    "\/sass\/partials\/_team.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/hnkansai_logo2.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/hnkansai_logo2.png",
-      "initialSize" : 9503,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/sass\/partials\/_team.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/stylesheets\/_team.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/images\/button-bg.png" : {
       "ignoreWasSetByUser" : 0,
@@ -232,17 +232,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/images\/stars3-bg.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/stars3-bg.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/stars3-bg.png",
-      "initialSize" : 85762,
-      "fileType" : 8192
-    },
     "\/javascripts\/plugins.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -253,6 +242,17 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/javascripts\/plugins-ck.js",
       "fileType" : 64
+    },
+    "\/images\/stars3-bg.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/stars3-bg.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/stars3-bg.png",
+      "initialSize" : 85762,
+      "fileType" : 8192
     },
     "\/sass\/partials\/_main.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -265,6 +265,22 @@
       "outputAbbreviatedPath" : "\/stylesheets\/_main.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/index.haml" : {
+      "inputAbbreviatedPath" : "\/index.haml",
+      "outputAbbreviatedPath" : "\/index.html",
+      "outputPathIsSetByUser" : 0,
+      "escapeHTMLCharacters" : 0,
+      "useUnixNewlines" : 0,
+      "useCDATA" : 0,
+      "ignore" : 0,
+      "noEscapeInAttributes" : 0,
+      "outputFormat" : 2,
+      "useDoubleQuotes" : 0,
+      "ignoreWasSetByUser" : 0,
+      "hidden" : 0,
+      "fileType" : 256,
+      "outputStyle" : 0
     },
     "\/javascripts\/vendor\/modernizr-2.6.1.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -288,22 +304,6 @@
       "initialSize" : 74298,
       "fileType" : 4096
     },
-    "\/index.haml" : {
-      "inputAbbreviatedPath" : "\/index.haml",
-      "outputAbbreviatedPath" : "\/index.html",
-      "outputPathIsSetByUser" : 0,
-      "escapeHTMLCharacters" : 0,
-      "useUnixNewlines" : 0,
-      "useCDATA" : 0,
-      "ignore" : 0,
-      "noEscapeInAttributes" : 0,
-      "outputFormat" : 2,
-      "useDoubleQuotes" : 0,
-      "ignoreWasSetByUser" : 0,
-      "hidden" : 0,
-      "fileType" : 256,
-      "outputStyle" : 0
-    },
     "\/stylesheets\/ie.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -324,17 +324,16 @@
       "initialSize" : 199849,
       "fileType" : 8192
     },
-    "\/sass\/partials\/_features.scss" : {
+    "\/images\/photo-tom-big.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/partials\/_features.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/_features.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/images\/photo-tom-big.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/photo-tom-big.png",
+      "initialSize" : 162587,
+      "fileType" : 8192
     },
     "\/javascripts\/main-ck.js" : {
       "ignoreWasSetByUser" : 0,
@@ -347,27 +346,17 @@
       "outputAbbreviatedPath" : "\/javascripts\/main-ck-ck.js",
       "fileType" : 64
     },
-    "\/images\/photo-tom-big.png" : {
+    "\/sass\/partials\/_mixins.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/photo-tom-big.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/photo-tom-big.png",
-      "initialSize" : 162587,
-      "fileType" : 8192
-    },
-    "\/images\/leakmap.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/leakmap.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/leakmap.png",
-      "initialSize" : 4790,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/sass\/partials\/_mixins.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/stylesheets\/_mixins.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/sass\/partials\/_normalize.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -381,16 +370,25 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/images\/meteor-logo.png" : {
+    "\/images\/leakmap.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/meteor-logo.png",
+      "inputAbbreviatedPath" : "\/images\/leakmap.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/meteor-logo.png",
-      "initialSize" : 4852,
+      "outputAbbreviatedPath" : "\/images\/leakmap.png",
+      "initialSize" : 4790,
       "fileType" : 8192
+    },
+    "\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/images\/photo-sacha-big.png" : {
       "ignoreWasSetByUser" : 0,
@@ -414,37 +412,40 @@
       "initialSize" : 30786,
       "fileType" : 8192
     },
-    "\/index.html" : {
+    "\/sass\/partials\/_footer.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/sass\/partials\/_mixins.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/partials\/_mixins.scss",
+      "inputAbbreviatedPath" : "\/sass\/partials\/_footer.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/_mixins.css",
+      "outputAbbreviatedPath" : "\/stylesheets\/_footer.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/images\/proxino-logo.png" : {
+    "\/images\/meteor-logo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/proxino-logo.png",
+      "inputAbbreviatedPath" : "\/images\/meteor-logo.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/proxino-logo.png",
-      "initialSize" : 4669,
+      "outputAbbreviatedPath" : "\/images\/meteor-logo.png",
+      "initialSize" : 4852,
       "fileType" : 8192
+    },
+    "\/sass\/partials\/_features.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/partials\/_features.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/stylesheets\/_features.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/images\/proxino-logo2.png" : {
       "ignoreWasSetByUser" : 0,
@@ -479,6 +480,17 @@
       "initialSize" : 68350,
       "fileType" : 8192
     },
+    "\/images\/photo-sacha.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/photo-sacha.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/photo-sacha.png",
+      "initialSize" : 62057,
+      "fileType" : 8192
+    },
     "\/images\/button-bg-hover.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -502,28 +514,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/images\/photo-sacha.png" : {
+    "\/images\/proxino-logo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/photo-sacha.png",
+      "inputAbbreviatedPath" : "\/images\/proxino-logo.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/photo-sacha.png",
-      "initialSize" : 62057,
+      "outputAbbreviatedPath" : "\/images\/proxino-logo.png",
+      "initialSize" : 4669,
       "fileType" : 8192
-    },
-    "\/sass\/partials\/_footer.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/partials\/_footer.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/_footer.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/sass\/print.scss" : {
       "ignoreWasSetByUser" : 0,
