@@ -1,1 +1,1 @@
-$(function(){$("body").addClass("animate")});
+$(function(){$("body").addClass("animate");$("#origin").val(document.referrer)});

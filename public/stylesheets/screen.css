@@ -1360,6 +1360,11 @@ a {
     border-bottom: none;
     margin-bottom: 0; }
 
+/* line 166, ../sass/partials/_main.scss */
+.sign-up-confirm {
+  text-align: center;
+  font-size: 24px; }
+
 /* line 10, ../sass/partials/_hero.scss */
 .hero .tagline {
   margin-bottom: 20px;
