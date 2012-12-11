@@ -27,25 +27,23 @@
           %h2.tagline An open-source social news app built with Meteor
           .row.actions
             .span6
-              .button.demo
+              %a.button.demo{:href=>"http://demo.telesc.pe"}
                 %span.bg1
                 %span.bg2
                 %span.button-content
                   %span.action 
-                    %a{:href=>"http://demo.telesc.pe"} Try Demo
-                    (
-                    %a{:href=>"http://demo2.telesc.pe"} Demo2
-                    ,
-                    %a{:href=>"http://demo3.telesc.pe"} Demo3
-                    )
-                  / %span.info Reset every 10 minutes
+                    %span Try Demo
+                    / (
+                    / %a{:href=>"http://demo2.telesc.pe"} Demo2
+                    / ,
+                    / %a{:href=>"http://demo3.telesc.pe"} Demo3
+                    / )
             .span6
               %a.button.github{:href=>"http://github.com/SachaG/Telescope"}
                 %span.bg1
                 %span.bg2
                 %span.button-content
                   %span.action Fork on GitHub
-                  / %span.info Fork, download, and view docs
           %p.intro Telescope is an open-source social news app (think <a href="http://news.ycombinator.com" target="_blank">Hacker News</a> or <a href="http://reddit.com" target="_blank">Reddit</a>) built with <a href="http://meteor.com" target="_blank">Meteor</a>, a real-time Javascript framework.           
         .span12.section.no-border.examples
           %h3 What Are People Using It For?
@@ -85,7 +83,7 @@
             .span4 Notifications
           .row  
             .span4 Markdown with <a href="http://epiceditor.com/" target="_blank">EpicEditor</a>
-            .span4 Email or Twitter authentification
+            .span4 Email or Twitter authentication
             .span4 Responsive &amp; mobile-ready
           .row
             .span4 <a href="http://mixpanel.com">Mixpanel</a> &amp; <a href="http://gosquared.com">GoSquared</a> enabled
