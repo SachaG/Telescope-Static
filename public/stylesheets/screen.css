@@ -1563,6 +1563,11 @@ a {
     width: auto;
     float: none;
     margin-left: 0px; } }
+/* line 2, ../sass/partials/_discuss.scss */
+.discuss p {
+  font-size: 18px;
+  text-align: center; }
+
 /* line 1, ../sass/partials/_team.scss */
 .team {
   text-align: center; }
